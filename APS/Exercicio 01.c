@@ -1,4 +1,4 @@
-//inclusão de bibliotecas
+//inclusÃ£o de bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -6,10 +6,10 @@
 int main(){
 setlocale(LC_ALL, "Portuguese");
 
-//declaração de variáveis
+//declaraÃ§Ã£o de variÃ¡veis
 float n1, n2, maior;
 
-printf("Forneça os dois números: ");
+printf("ForneÃ§a os dois nÃºmeros: ");
 scanf("%f %f", &n1, &n2); 
 
 if(n1 > n2)
@@ -20,7 +20,7 @@ if(n1 > n2)
         else
             maior = n1;
 
-printf("\nMaior número: %.2f\n\n", maior);
+printf("\nMaior nÃºmero: %.2f\n\n", maior);
 
 
 system("pause");
