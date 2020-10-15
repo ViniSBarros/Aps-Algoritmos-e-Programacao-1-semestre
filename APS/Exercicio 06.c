@@ -1,4 +1,4 @@
-//inclusão de bibliotecas
+//inclusÃ£o de bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -6,10 +6,10 @@
 int main(){
 setlocale(LC_ALL, "Portuguese");
 
-//declaração de variáveis
+//declaraÃ§Ã£o de variÃ¡veis
 float n1, n2, n3, maior, menor;
 
-printf("Digite 3 números: ");
+printf("Digite 3 nÃºmeros: ");
 scanf("%f %f %f", &n1, &n2, &n3);
 
 if(n1 > n2 && n1 > n3)
@@ -32,7 +32,7 @@ if(n1 == n3 && n1 > n2)
 if(n2 == n3 && n2 > n1)
     maior = n2;
 
-printf("\nO maior número é o: %.2f\n", maior);
+printf("\nO maior nÃºmero Ã© o: %.2f\n", maior);
 
 if(n1 < n2 && n1 < n3)
     menor = n1;
@@ -54,7 +54,7 @@ if(n1 == n3 && n1 < n2)
 if(n2 == n3 && n2 < n1)
     menor = n2;
 
-printf("\nO menor número é o: %.2f\n\n", menor);
+printf("\nO menor nÃºmero Ã© o: %.2f\n\n", menor);
 
 
 system("pause");
