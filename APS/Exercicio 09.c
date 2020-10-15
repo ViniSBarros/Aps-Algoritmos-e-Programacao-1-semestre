@@ -1,4 +1,4 @@
-//inclus„o de bibliotecas
+//inclus√£o de bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -6,7 +6,7 @@
 int main(){
 setlocale(LC_ALL, "Portuguese");
 
-//declaraÁ„o de vari·veis
+//declara√ß√£o de vari√°veis
 float valor, bruto, descontos, inss = 0.10, ir;
 int horas;
 
@@ -36,7 +36,7 @@ if(bruto > 2500)
     
 descontos = ((bruto * ir) + (bruto * inss));
 
-printf("\nSal·rio Bruto (%.0f * %d): R$ %.2f", valor, horas, bruto);
+printf("\nSal√°rio Bruto (%.0f * %d): R$ %.2f", valor, horas, bruto);
 
 printf("\n(-) IR (%.0f%%): R$ %.2f", ir * 100, bruto * ir);
 
@@ -46,7 +46,7 @@ printf("\nFGTS (11%%): R$ %.2f", bruto * 0.11);
 
 printf("\nTotal de descontos: R$ %.2f", descontos);
 
-printf("\nSal·rio LiquÌdo: R$ %.2f\n\n", bruto - descontos);
+printf("\nSal√°rio Liqu√≠do: R$ %.2f\n\n", bruto - descontos);
 
 
 system("pause");
