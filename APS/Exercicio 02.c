@@ -1,4 +1,4 @@
-//inclus„o de bibliotecas
+//inclus√£o de bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -6,10 +6,10 @@
 int main(){
 setlocale(LC_ALL, "Portuguese");
 
-//declaraÁ„o de vari·veis
+//declara√ß√£o de vari√°veis
 float n1;
 
-printf("Informe o n˙mero: ");
+printf("Informe o n√∫mero: ");
 scanf("%f", &n1);
 
 if(n1 > 0)
