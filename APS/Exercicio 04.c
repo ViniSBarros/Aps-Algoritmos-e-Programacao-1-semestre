@@ -1,4 +1,4 @@
-//inclus„o de bibliotecas
+//inclus√£o de bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -6,7 +6,7 @@
 int main(){
 setlocale(LC_ALL, "Portuguese");
 
-//declaraÁ„o de vari·veis
+//declara√ß√£o de vari√°veis
 float n1, n2, media;
 
 printf("Digite as notas parciais: ");
@@ -15,13 +15,13 @@ scanf("%f %f", &n1, &n2);
 media = (n1 + n2) / 2;
 
 if (media >= 7 && media != 10)
-    printf("\nAprovado com uma mÈdia de: %.2f\n\n", media);
+    printf("\nAprovado com uma m√©dia de: %.2f\n\n", media);
 
 if (media < 7)
-    printf("\nReprovado com uma mÈdia de:  %.2f\n\n", media);
+    printf("\nReprovado com uma m√©dia de:  %.2f\n\n", media);
 
 if (media == 10)
-    printf("\nAprovado com DistinÁ„o, mÈdia: %.2f\n\n", media);
+    printf("\nAprovado com Distin√ß√£o, m√©dia: %.2f\n\n", media);
 
 
 system("pause");
