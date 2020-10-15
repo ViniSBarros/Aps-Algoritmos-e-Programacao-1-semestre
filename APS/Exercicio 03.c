@@ -1,4 +1,4 @@
-//inclus„o de bibliotecas
+//inclus√£o de bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -6,7 +6,7 @@
 int main(){
 setlocale(LC_ALL, "Portuguese");
 
-//declaraÁ„o de vari·veis
+//declara√ß√£o de vari√°veis
 char sexo;
 
 printf("Informe o seu sexo com apenas a primeira letra: ");
@@ -25,7 +25,7 @@ printf("\nSexo: %c - Feminino\n\n", sexo);
     break;
 
 default:
-printf("\nSexo Inv·lido!\n\n");
+printf("\nSexo Inv√°lido!\n\n");
     break;
 }
 
