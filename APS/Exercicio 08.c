@@ -1,4 +1,4 @@
-//inclus„o de bibliotecas
+//inclus√£o de bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -6,7 +6,7 @@
 int main(){
 setlocale(LC_ALL, "Portuguese");
 
-//declaraÁ„o de vari·veis
+//declara√ß√£o de vari√°veis
 char periodo;
 
 printf("Informe o seu periodo com apenas a primeira letra: ");
@@ -30,7 +30,7 @@ printf("\nBoa Noite!\n\n");
     break;
 
 default:
-printf("\nValor Inv·lido!\n\n");
+printf("\nValor Inv√°lido!\n\n");
     break;
 }
 
